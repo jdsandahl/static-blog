@@ -1,1 +1,3 @@
-console.log("The System Works!");
+fetch('content/posts.json')
+  .then(response => response.json())
+  .then(data => console.log(data))

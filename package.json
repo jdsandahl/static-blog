@@ -1,0 +1,23 @@
+{
+  "name": "static-blog",
+  "version": "1.0.0",
+  "description": "A simple blog for hosting on github pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-antking/static-blog.git"
+  },
+  "author": "Ian King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-antking/static-blog/issues"
+  },
+  "homepage": "https://github.com/ian-antking/static-blog#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
