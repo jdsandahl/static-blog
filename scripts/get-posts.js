@@ -2,7 +2,6 @@ fetch('content/posts.json')
   .then(response => response.json())
   .then(data => {
     const blogPosts = document.getElementById('posts')
-    console.log(blogPosts);
     data.forEach(postData => {
       const postCard = document.createElement('div');
       const date = document.createElement('h3');
